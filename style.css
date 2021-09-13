@@ -1,0 +1,45 @@
+body {
+    background-color: rosybrown;
+}
+
+header {
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: thistle;
+}
+
+.hbutton {
+    display: flex;
+    background-color: thistle; 
+    flex-basis: content;
+    margin: 4px;
+}
+form {
+    margin-top: 50px;
+    margin-left: 450px;
+    width: fit-content;
+    padding: 4px;
+    border: 2px solid rosybrown;
+    background-color: rgb(92, 107, 156);
+    align-content: center;
+}
+
+#submit {
+    width: 310px;
+}
+
+.p1 {
+    margin-left: 85px;
+}
+
+img {
+    display: inline-flex;
+    align-content: space-between;
+    width: 25px;
+    height: 25px;
+    justify-items: center;
+}
+
+input {
+    width: 302px;
+}
